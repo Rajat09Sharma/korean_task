@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat-light', sans-serif;
+    text-align: center;
+    /*after refactoring the text-aling center from all section */
+}
+
+.navbar {
+    padding: 0 20px;
+    background-color: #FF3EA5;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: transparent;
+}
+
+.register-btn{
+    
+    background-color: #fff;
+    border: 2px solid #FF3EA5;
+}
+
+.register-btn a{
+    color:#FF3EA5;
+}

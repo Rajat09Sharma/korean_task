@@ -67,43 +67,99 @@ body {
 } 
 
 /* hero section */
-
-.title {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/title-image.png");
-    /* background-color: black; */
-    /* background-position: center;
-    background-repeat: no-repeat; */
-    background-size: cover;
-
-}
-
-/* .title{
+#hero{
+    padding-bottom: 7%;
     position: relative;
     text-align: center;
+    height: 1000px;
+    background: linear-gradient(180deg, #ffc4e8, #ff42d4);
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "GRAD" 0;
+    
+}
+
+.title {
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    /* background-image: url("../images/title-image.png"); */
+    /* background-color: black; */
+    /* background-position: center;*/
+    /* background-repeat: no-repeat;  */
+    /* background-size: cover; */
+    /* padding-bottom: 30px; */
 
 }
 
-.title-image{
-    width: 100%;
-    height: 100%;
+.title-btn{
+    font-size: 38px;
+    padding: 7px ;
+    border-radius: 30px;
+    /* width: 25%; */
+    margin-top: 2rem;
 }
+
+.title-btn a{
+    text-decoration: none;
+    color: #F2F2F4;
+}
+
+.title-images{
+    /* width: 100%;
+    height: 100%; */
+    display: inline-block;
+    width: 34vw;
+
+}
+
+.korean-flag{
+    position: absolute;
+    top: -8%;
+    left: 0;
+}
+
+.indian-flag{
+    position: absolute;
+    top: -4.5%;
+    right: 0;
+}
+
+.korean-hut{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.people-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.flower-image{
+    position: absolute;
+    left: -10%;
+    bottom: 2%;
+
+}
+
 
 .title-heading{
     position: absolute;
     top: 50%;
-    right: 50%;
-    /* transform: translateX(-50%);
+    right: 20%;
+    transform: translateX(-50%);
     transform: translateY(-50%); 
+    /* display: inline-block; */
+    color: #F2F2F4;
 } 
-*/
+
 
 /* event sectiin  */
 #event {
     text-align: left;
     padding: 7% 5%;
-    background: linear-gradient(180deg, #ffc4e8, #ff42d4);
+    background: linear-gradient(180deg, #ff42d4, #ffc4e8);
     color: #FF3EA5;
     font-family: "Signika", sans-serif;
     font-optical-sizing: auto;
@@ -174,7 +230,7 @@ h2 {
 #video {
     text-align: left;
     padding: 3% 5% 7% 5%;
-    background: linear-gradient(180deg, #ff42d4, #ffc4e8);
+    background: linear-gradient(180deg,#ffc4e8, #ff42d4 );
     color: #fff;
     font-family: "Signika", sans-serif;
     font-optical-sizing: auto;
@@ -212,7 +268,7 @@ iframe {
 #comunity{
     text-align: center;
     padding: 7% 5%;
-    background: linear-gradient(180deg, #ffc4e8, #ff42d4);
+    background: linear-gradient(180deg, #ff42d4, #ffc4e8 );
     color: #FF3EA5;
     font-family: "Signika", sans-serif;
     font-optical-sizing: auto;
@@ -271,7 +327,7 @@ font-size: 16px;
 #info{
     text-align: center;
     padding: 7% 5%;
-    background:linear-gradient(180deg, #ff42d4,#ffc4e8);
+    background: linear-gradient(180deg,#ffc4e8, #ff42d4 );
     color: #FF3EA5;
     font-family: "Signika", sans-serif;
     /* font-optical-sizing: auto;
@@ -342,7 +398,7 @@ label::before{
 #footer{
     text-align: center;
     padding: 1% 5% 7% 5%;
-    background:linear-gradient(180deg,#ffc4e8, #ff42d4);
+    background:linear-gradient(180deg, #ff42d4,#ffc4e8);
     color: #FF3EA5;
     font-family: "Signika", sans-serif;
 }
@@ -381,4 +437,25 @@ label::before{
     .event-content{
         margin-top: 0;
     }
+}
+
+@media (min-width:375px) and (max-width:1496px){
+    #hero{
+        height: 400px;
+    }
+    .korean-flag{
+        top: -5%;
+    }
+    .indian-flag{
+        top: -3%;
+    }
+    .title-heading{
+        right: 8%;
+        top: 53%;
+        font-size: large;
+    }
+    .title-btn{
+        font-size: large;
+    }
+
 }

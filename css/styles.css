@@ -271,8 +271,19 @@ iframe {
     background-color: #000;
     font-family: "Signika", sans-serif;
 }
+marquee{
+    display: flex;
+    align-items: center;
+    border: 4px #fff;
+    border-style: dashed none;
+}
 
-.scroll-rightToLeft {
+marquee h1{
+    margin-bottom: 0;
+}
+
+
+/*.scroll-rightToLeft {
     border: 4px white;
     border-style:dashed none ;
     height: 5rem;
@@ -281,7 +292,7 @@ iframe {
     background-color: #000;
 }
 
-.selector {
+/* .selector {
     font-size: 3rem;
     line-height: 10px;
     animation: scrollText 8s infinite linear;
@@ -295,7 +306,7 @@ iframe {
     to {
         transform: translateX(-100%);
     }
-}
+} */
 
 /* comunity section */
 #comunity {
@@ -484,13 +495,13 @@ label::before {
     #event p {
         line-height: 26px;
     }
-    .selector{
+    /* .selector{
         font-size: revert-layer;
         margin-top: 12px;
-    }
-    .scroll-rightToLeft{
+    } */
+    /* .scroll-rightToLeft{
         height: 4rem;
-    }
+    } */
 }
 
 /* @media (min-width:375px) and (max-width:1496px){

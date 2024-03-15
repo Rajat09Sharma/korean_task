@@ -188,10 +188,14 @@ h2 {
     margin: 20px 5px;
     padding: 20px;
     border-radius: 50px;
-    border: 5px solid #FF3EA5;
+    /* border: 5px solid #FF3EA5; */
+    border: 5px solid #F2F2F4;
+
     text-align: center;
     height: 95%;
-    background: #F2F2F4;
+    /* background: #F2F2F4; */
+    background-color: #FF3EA5;
+    color: #fff;
     box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -259,7 +263,8 @@ iframe {
 /* text scrolling section */
 #scroll-text {
     padding: 1% 0;
-    color: #ff42d4;
+    /* color: #ff42d4; */
+    color: #FF3EA5;
     background-color: #000;
     font-family: "Signika", sans-serif;
     transform: rotate(-3deg);
@@ -268,7 +273,8 @@ iframe {
 
 #scroll-text-two{
     padding: 1% 0;
-    color: #ff42d4;
+    /* color: #ff42d4; */
+    color: #FF3EA5;
     background-color: #000;
     font-family: "Signika", sans-serif;
     transform: rotate(3deg);
@@ -308,9 +314,13 @@ marquee h1{
 .comunity-box {
     padding: 20px;
     border-radius: 50px;
-    border: 5px solid #FF3EA5;
+    /* border: 5px solid #FF3EA5; */
+    border: 5px solid #F2F2F4;
+
     text-align: center;
-    background: #F2F2F4;
+    /* background: #F2F2F4; */
+    background: #FF3EA5;
+    color: #fff;
     box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -350,7 +360,8 @@ marquee h1{
     text-align: center;
     padding: 7% 5% 3% 5%;
     background: linear-gradient(180deg, #ffc4e8, #ff42d4);
-    color: #FF3EA5;
+    /* color: #FF3EA5; */
+    color: #fff;
     font-family: "Signika", sans-serif;
 }
 
@@ -362,11 +373,13 @@ marquee h1{
 .accordians li {
     width: 100%;
     margin-bottom: 10px;
-    background: #F2F2F4;
+    /* background: #F2F2F4; */
+    background-color: #FF3EA5;
     border-radius: 30px;
+    border: 5px solid #F2F2F4;
     padding: 10px;
     list-style: none;
-    box-shadow: 6px 6px 10px -1px rgba(142, 3, 63, 0.25), -6px -6px 10px -1px rgba(247, 2, 108, 0.25);
+    /* box-shadow: 6px 6px 10px -1px rgba(142, 3, 63, 0.25), -6px -6px 10px -1px rgba(247, 2, 108, 0.25); */
 }
 
 .accordians li label {
@@ -411,6 +424,10 @@ label::before {
 #info h1 {
     font-size: 7vw;
     color: #F2F2F4;
+}
+
+.detail p{
+    color: #fff;
 }
 
 

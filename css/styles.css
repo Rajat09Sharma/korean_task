@@ -487,4 +487,10 @@ label::before {
     .nav-link{
         font-size: 1.8rem;
     }
+    .event-box {
+        height: 100%;
+    }
+    .event-img{
+        height: 50%;
+    }
 }
